@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .first-part{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+header nav .logo{
+    height: 50px;
+    cursor: pointer;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: #808080;
+
+}
+
+header nav .second-part .button-header{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    background-color: #5955b3;
+    margin-right: 30px;
+    cursor: pointer;
+}
+header nav .second-part .button-header:hover{
+    background-color: #3c2f60;
+
+}
+
+/* main section */
+section{
+    display: flex;
+    gap: 200px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+section .main-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.main-section-left .heading{
+    font-size: 60px;
+    color: #3c2f60;
+}
+.main-section-left .heading span{
+    color: #5955b3;
+
+}
+.main-section-left .button-left-main-section{
+    background-color: #5955b3;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+.main-section-left .button-left-main-section:hover{
+    background-color: #3c2f60;
+}
+
+section .main-section-right{
+    width: 50%;
+    
+}
+
+section .main-section-right img{
+    height: 500px;
+    width: 800px;
+}
+
